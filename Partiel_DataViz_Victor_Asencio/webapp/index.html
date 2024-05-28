@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compteur Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Compteur</h1>
+        <div class="counter-container">
+            <div class="counter-display" id="counter">0</div>
+        </div>
+        <div class="buttons-container">
+            <button onclick="increase()">Increase</button>
+            <button onclick="decrease()">Decrease</button>
+            <button onclick="reset()">Reset</button>
+            <button onclick="tryToWin()">Try to Win</button>
+        </div>
+        <br>
+        <br>
+        <div class="game-rules">
+            <p>Cliquez sur "Try to Win" pour réinitialiser le compteur avec une valeur entre 0 et 100. Si la valeur est 69, vous gagnez!</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
